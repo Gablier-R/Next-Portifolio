@@ -16,8 +16,8 @@ const Header = () => {
     const navigation = [
         {label: 'Home', path: '/'},
         {label: 'Sobre', path: '/about'},
-        {label: 'Sobre', path: '/projects'},
-        {label: 'Sobre', path: '/contact'},
+        {label: 'Projetos', path: '/projects'},
+        {label: 'Contato', path: '/contact'},
     ]
 
     
