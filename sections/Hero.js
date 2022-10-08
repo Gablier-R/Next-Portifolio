@@ -9,7 +9,7 @@ const Hero = () => {
             <span className="dark:text-purple-600"> Gabriel</span>
             </h1>
             <h3 className="text-4xl my-3">Um Web Designer</h3>
-            <p className="text-gray-700 mb-8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            <p className="text-gray-500 mb-8">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
