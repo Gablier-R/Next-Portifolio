@@ -70,10 +70,6 @@ const Header = () => {
         
     }
 
-    
-
-
-
     return (
         
             <header className="h-16 flex items-center justify-between ">
@@ -81,7 +77,7 @@ const Header = () => {
 
                     {navigation.map (nav => 
                         (<Link href={nav.path}>
-                            <a className="font-semibold text-gray-400   hover: text-gray-500"
+                            <a className="font-semibold text-gray-400   hover:text-gray-500"
                             >
                             {nav.label}</a></Link>
                         ))}
