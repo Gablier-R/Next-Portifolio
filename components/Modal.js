@@ -72,7 +72,7 @@ const Modal = ({ id='modal',onClose = () => {} }) => {
                 />
 
 
-                <input className=" bg-purple-600 text-white px-6 p-2 rounded-md hover:ring-2 hover:ring-gray-300 cursor-pointer" 
+                <input className=" bg-gray-400 text-white px-6 p-2 rounded-md hover:ring-2 hover:ring-gray-300 cursor-pointer" 
                 type="submit" value="Enviar" />
 
             </form>

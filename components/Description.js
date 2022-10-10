@@ -16,7 +16,7 @@ const Description = () =>{
                 </p>
         </div>
         <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-            <div class="h-full w-2 bg-purple-600"></div>
+            <div class="h-full w-2 bg-gray-400"></div>
         </div>
 
 
@@ -27,7 +27,7 @@ const Description = () =>{
 
 
             <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-            <div class="h-full w-2 bg-purple-600"></div>
+            <div class="h-full w-2 bg-gray-400"></div>
             </div>
 
 
@@ -50,7 +50,7 @@ const Description = () =>{
                 </p>
         </div>
             <div class="relative col-span-1 w-full h-full flex justify-center items-center">
-                <div class="h-full w-2 bg-purple-600"></div>
+                <div class="h-full w-2 bg-gray-400"></div>
             </div>
             
             <div class="col-span-4 w-full h-full"></div>
