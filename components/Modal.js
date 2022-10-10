@@ -38,13 +38,13 @@ const Modal = ({ id='modal',onClose = () => {} }) => {
     
     return(
 
-        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-md flex justify-center items-center flex-col ">
+        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md flex justify-center items-center flex-col ">
 
-        <h3 className="text-4xl my-3 text-gray-400 text-center">Mande algum proposta, ou apenas um feedback</h3>
+        <h3 className="text-4xl my-3 text-gray-400 text-center">Mande alguma proposta, ou apenas um feedback</h3>
             
         <section className="mt-16 ">
             
-
+ 
 
             <form className=' w-96 flex flex-col space-y-12 text-gray-400 bg-transparent font-semibold' onSubmit={sendEmail}>
 
