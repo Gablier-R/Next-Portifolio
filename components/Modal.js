@@ -1,7 +1,11 @@
 import { useState } from "react"
 import emailjs from '@emailjs/browser'
 
-const Modal = ({showModal, setShowModal}) => {
+const Modal = ({ id='modal',onClose = () => {} }) => {
+
+        const handleOutsideClick = (e) => {
+            if(e.target.id === id) onClose();
+        }
 
 
      /* Send Email */
@@ -34,16 +38,18 @@ const Modal = ({showModal, setShowModal}) => {
     
     return(
 
-        <> 
-        { showModal ?
-        <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md flex justify-center items-center">
-        <section className="mt-16">
+        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-md flex justify-center items-center flex-col ">
+
+        <h3 className="text-4xl my-3 text-gray-400 text-center">Mande algum proposta, ou apenas um feedback</h3>
+            
+        <section className="mt-16 ">
+            
 
 
-            <form className='w-56 flex flex-col space-y-10 mx-2 text-gray-600 ' onSubmit={sendEmail}>
+            <form className=' w-96 flex flex-col space-y-12 text-gray-400 bg-transparent font-semibold' onSubmit={sendEmail}>
 
                 <input 
-                className="  placeholder: border-b-4 border-gray-600 bg-transparent outline-none rounded-md hover:ring-2 hover:ring-gray-300"
+                className="py-1 outline-none bg-transparent border-gray-600 border-b-2 focus:border-purple-600 duration-300 focus:outline-none"
                 type="text"
                 placeholder="Digite seu nome"
                 onChange={(e) => setName(e.target.value)}
@@ -51,7 +57,7 @@ const Modal = ({showModal, setShowModal}) => {
                 />
                 
                 <input 
-                className="placeholder: border-b-4 border-gray-600 bg-transparent outline-none"
+                className="py-1 outline-none bg-transparent border-gray-600  border-b-2 focus:border-purple-600 duration-300 focus:outline-none"
                 type="text"
                 placeholder="Digite seu email"
                 onChange={(e) => setEmail(e.target.value)}
@@ -59,25 +65,23 @@ const Modal = ({showModal, setShowModal}) => {
                 />
 
                 <textarea 
-                className="placeholder: border-b-4 border-gray-600 bg-transparent outline-none"
+                className="py-0 outline-none bg-transparent border-gray-600  border-b-2 focus:border-purple-600 duration-300 focus:outline-none "
                 placeholder="Digite sua mensagem..."
                 onChange={(e) => setMessage(e.target.value)}
                 value={message}
                 />
 
 
-                <input className="bg-purple-600 text-white px-6 p-2 rounded-md hover:ring-2 hover:ring-gray-300 cursor-pointer" 
+                <input className=" bg-purple-600 text-white px-6 p-2 rounded-md hover:ring-2 hover:ring-gray-300 cursor-pointer" 
                 type="submit" value="Enviar" />
 
             </form>
 
-
+          
 
         </section>
         </div>
 
-    :null    }
-      </> 
     )
 }
 

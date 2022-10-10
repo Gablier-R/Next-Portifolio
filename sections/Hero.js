@@ -6,11 +6,7 @@ import Modal from "../components/Modal"
 
 const Hero = () => {
 
-    const[showModal, setShowModal] = useState(false)
-
-    const openModal = () => {
-        setShowModal(prev => !prev)
-    }
+    const [isModalVisible, setIsModalVisible] = useState(false);
 
     return (
         
@@ -20,7 +16,7 @@ const Hero = () => {
             <span className="dark:text-purple-600"> Gabriel</span>
             </h1>
       
-            <h3 className="text-4xl my-3 blinking-cursor">Sou um desenvolvedor web</h3>
+            <h3 className="text-4xl my-3">Sou um desenvolvedor web</h3>
 
             <p className="text-gray-500 mb-8 ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -30,11 +26,13 @@ const Hero = () => {
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
 
-            <Button className="bg-purple-600 text-white px-6" onClick={openModal}> 
-                Clique!
+            <Button className="bg-purple-600 text-white px-6" onClick={() => setIsModalVisible(true)}> 
+                Contato
             </Button>
+            {isModalVisible ? <Modal onClose={() => setIsModalVisible(false)}></Modal> :null}
+           
 
-            <Modal showModal={showModal} setShowModal={setShowModal}/>
+        
 
         </section>
     )
