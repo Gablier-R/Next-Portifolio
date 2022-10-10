@@ -12,11 +12,11 @@ const Hero = () => {
         
         <section className="mt-16">
 
-            <h1 className="text-7xl font-bold">Sou 
+            <h1 className="text-7xl font-bold">Eu sou o 
             <span className="dark:text-purple-600"> Gabriel</span>
             </h1>
       
-            <h3 className="text-4xl my-3">Sou um desenvolvedor web</h3>
+            <h3 className="text-4xl my-3"> um desenvolvedor web</h3>
 
             <p className="text-gray-500 mb-8 ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

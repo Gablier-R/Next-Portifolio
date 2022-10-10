@@ -1,9 +1,9 @@
-import Description from "../components/Description"
+import DescriptionStudy from "../components/DescriptionStudy"
 
 const About = () => {
     return(
         <section className="mt-16">
-        <Description/>
+        <DescriptionStudy/>
         </section>
        
         

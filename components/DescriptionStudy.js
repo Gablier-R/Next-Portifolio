@@ -5,7 +5,9 @@ const Description = () =>{
 
     return (
      <>
-        <div class="max-w-7xl mx-auto w-full grid grid-cols-9 px-0 text-gray-400">
+     <section className="mt-16">
+     <div className="text-center text-gray-600 front-semibold mt-20 text-2xl my-20">Estudo</div>
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-9 px-0 text-gray-400 my-12">
         
         <div class="col-span-4 w-full h-full mb-20">
             <p class="mb-2 text-base"> 2017</p>
@@ -54,7 +56,8 @@ const Description = () =>{
             </div>
             
             <div class="col-span-4 w-full h-full"></div>
-        </div>
+        </div >
+        </section>
      </>
     )
 }
