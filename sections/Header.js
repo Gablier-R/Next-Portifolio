@@ -76,7 +76,7 @@ const Header = () => {
 
                     {navigation.map (nav => 
                         (<Link href={nav.path}>
-                            <a className="font-semibold text-gray-400   hover:text-gray-500"
+                            <a className="font-semibold text-gray-400 hover:text-gray-500 focus:text-gray-600 dark:hover:text-gray-300 dark:focus:text-gray-200   transition ease-in-out delay-150 "
                             >
                             {nav.label}</a></Link>
                         ))}
