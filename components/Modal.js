@@ -82,9 +82,7 @@ return(
                     />
                     <label for="floating_standard" class="absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mensagem</label>
                 </div>
-
                 
-
                 <Button className="bg-purple-600  text-white m-52 w-28 px-8 grid grid-cols-2  text-md" type="submit" value="Enviar"> 
                 Enviar
                 </Button>
