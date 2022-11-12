@@ -15,7 +15,6 @@ const Hero = () => {
             <span className="dark:text-purple-600"> Gabriel</span>
             </h1>
             <h3 className="text-4xl my-3"> um desenvolvedor web</h3>
-            <p className="text-gray-500 mb-8 ">"O que eu poderia falar sobre mim é...</p>
             <p className="text-gray-500 mb-8 "> Sou um grande apaixonado por tecnologia e esse mundo fascinante,
             sou vidrado em resolver problemas e descobrir novas tecnologias ou novos jeitos de fazer coisas simples."
             </p>
