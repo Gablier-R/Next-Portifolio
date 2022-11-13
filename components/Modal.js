@@ -45,7 +45,7 @@ return(
     
         <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md flex justify-center items-center">
             
-        <div className=" bg-black dark:bg-gray-50 p-20 rounded-md w-128">
+        <div className=" bg-black dark:bg-gray-50 p-10 rounded-md w-128">
         <h3 className="text-4xl my-3  text-white dark:text-gray-900 font-bold">Contato</h3>
         <p class="mt-3  text-white dark:text-gray-900 font-semibold">Mande uma proposta, ou apenas um feedback</p>
         <section className="mt-16">
