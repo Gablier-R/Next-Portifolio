@@ -12,11 +12,11 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        '128': '50rem',
+        'custom': '40rem',
       },
 
       margin:{
-        'custom': '44rem',
+        'custom': '30rem',
       },
     },
   },
