@@ -41,12 +41,11 @@ const Modal = ({ id='modal',onClose = () => {} }) => {
     }
     
 return(
-
     
         <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-purple-300 bg-opacity-10 backdrop-blur-md flex justify-center items-center">
             
         <div className=" bg-black  p-10 rounded-md w-128">
-            <p id={id} onClick={handleOutsideClick} className=" mx-custom font-black text-white text-xl cursor-pointer" >X</p>
+            
         <h3 className="text-4xl my-3  text-white  font-bold">Contato</h3>
         <p class="mt-3  text-white  font-semibold">Vamos trabalhar juntos, ou apenas um feedback</p>
         <section className="mt-16">
