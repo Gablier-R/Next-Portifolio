@@ -14,6 +14,10 @@ module.exports = {
       width: {
         '128': '50rem',
       },
+
+      margin:{
+        'custom': '44rem',
+      },
     },
   },
   plugins: [],
