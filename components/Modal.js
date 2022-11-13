@@ -43,14 +43,14 @@ const Modal = ({ id='modal',onClose = () => {} }) => {
 return(
 
     
-        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md flex justify-center items-center">
+        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-purple-300 bg-opacity-10 backdrop-blur-md flex justify-center items-center">
             
-        <div className=" bg-black dark:bg-gray-50 p-10 rounded-md w-128">
-        <h3 className="text-4xl my-3  text-white dark:text-gray-900 font-bold">Contato</h3>
-        <p class="mt-3  text-white dark:text-gray-900 font-semibold">Mande uma proposta, ou apenas um feedback</p>
+        <div className=" bg-black  p-10 rounded-md w-128">
+        <h3 className="text-4xl my-3  text-white  font-bold">Contato</h3>
+        <p class="mt-3  text-white  font-semibold">Mande uma proposta, ou apenas um feedback</p>
         <section className="mt-16">
             
-            <form className=' flex flex-col space-y-12 text-white dark:text-gray-900 bg-transparent font-semibold' onSubmit={sendEmail}>
+            <form className=' flex flex-col space-y-12 text-white bg-transparent font-semibold' onSubmit={sendEmail}>
 
             <div className="grid gap-6 sm:grid-cols-2">
                 <div class="relative z-0">
