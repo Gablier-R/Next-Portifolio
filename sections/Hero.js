@@ -21,6 +21,7 @@ const Hero = () => {
             <Button className="bg-purple-600 text-white px-6" onClick={() => setIsModalVisible(true)}> 
                 Contato
             </Button>
+            
             {isModalVisible ? <Modal onClose={() => setIsModalVisible(false)}></Modal> :null} 
         
         </section>

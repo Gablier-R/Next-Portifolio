@@ -43,37 +43,41 @@ const Modal = ({ id='modal',onClose = () => {} }) => {
 return(
 
     
-        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md flex justify-center items-center flex-col ">
-        <div className=" bg-black dark:bg-gray-50 justify-center items-center p-10 flex flex-col rounded-md ">
-        <h3 className="text-4xl my-3  text-white dark:text-gray-900 text-center">Contato</h3>
-        <section className="mt-16 ">
+        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md flex justify-center items-center">
             
-            <form className=' w-80 flex flex-col space-y-12 text-white dark:text-gray-900 bg-transparent font-semibold' onSubmit={sendEmail}>
+        <div className=" bg-black dark:bg-gray-50 p-20 rounded-md w-128">
+        <h3 className="text-4xl my-3  text-white dark:text-gray-900 font-bold">Contato</h3>
+        <p class="mt-3  text-white dark:text-gray-900 font-semibold">Mande uma proposta, ou apenas um feedback</p>
+        <section className="mt-16">
+            
+            <form className=' flex flex-col space-y-12 text-white dark:text-gray-900 bg-transparent font-semibold' onSubmit={sendEmail}>
 
-            <div class="relative z-0">
-                    <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
-                    type="text"
-                    placeholder=" "
-                    onChange={(e) => setName(e.target.value)}
-                    value={name}
-                    required="required"
-                    />
-                    <label for="floating_standard" class="absolute text-sm  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nome</label>
-                </div>
+            <div className="grid gap-6 sm:grid-cols-2">
+                <div class="relative z-0">
+                        <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
+                        type="text"
+                        placeholder=" "
+                        onChange={(e) => setName(e.target.value)}
+                        value={name}
+                        required="required"
+                        />
+                        <label for="floating_standard" class="absolute text-sm  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nome</label>
+                    </div>
+
+                    <div class="relative z-0">
+                        <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
+                        type="text" 
+                        placeholder=" "  
+                        onChange={(e) => setEmail(e.target.value)} 
+                        value={email}
+                        required="required"
+                        />
+                        <label for="floating_standard" class="absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+                    </div>
+            </div>
 
                 <div class="relative z-0">
-                    <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
-                    type="text" 
-                    placeholder=" "  
-                    onChange={(e) => setEmail(e.target.value)} 
-                    value={email}
-                    required="required"
-                    />
-                    <label for="floating_standard" class="absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
-                </div>
-
-                <div class="relative z-0">
-                    <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
+                    <textarea id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
                     type="text"
                     placeholder=" "
                     onChange={(e) => setMessage(e.target.value)}
@@ -83,11 +87,14 @@ return(
                     <label for="floating_standard" class="absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mensagem</label>
                 </div>
                 
-                <Button className="bg-purple-600  text-white m-52 w-28 px-8 grid grid-cols-2  text-md" type="submit" value="Enviar"> 
+                <Button className="bg-purple-600  text-white w-28 px-8 flex" 
+                type="submit" 
+                value="Enviar"> 
                 Enviar
                 </Button>
 
             </form>
+
         </section>
         </div>
     </div>
