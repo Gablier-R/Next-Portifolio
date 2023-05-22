@@ -3,7 +3,7 @@ import React from "react";
 function Social () {
     return (
         <div>
-            <span>Teste</span>
+            <span>Testes</span>
         </div>
     )
 }
