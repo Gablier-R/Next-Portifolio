@@ -15,7 +15,7 @@ const Hero = () => {
             <span className="dark:text-purple-600"> Gabriel</span>
             </h1>
             <h3 className="text-4xl my-3"> um desenvolvedor</h3>
-            <p className="text-gray-500 mb-8"> "Oi eu sou o <span className="italic" >@gablier_r</span> , e trabalho com desenvolvimento web entre outros, sou um programador no inicio da sua carreria, e apaixonado pelas minhas criações."
+            <p className="text-gray-500 mb-8"> "Oi eu sou <span className="italic" >@gablier_r</span> , e trabalho com desenvolvimento web entre outros, sou um programador no inicio da sua carreria, e apaixonado pelas minhas criações."
             </p>
             <Button className="bg-purple-600 text-white px-6" onClick={() => setIsModalVisible(true)}> 
                 Contato
