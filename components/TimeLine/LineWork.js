@@ -33,7 +33,7 @@ function LineWork() {
                             <time class="mb-1 text-sm font-normal leading-none text-gray-500">Junho 2023 <span class="bg-purple-600 text-gray-200 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-purple-600 dark:text-gray-200 ml-3">Now</span> </time>
                             <h3 class="text-lg font-bold text-gray-900 dark:text-gray-200">Compass.uol</h3>
                             <p class="text-base font-normal text-gray-500">
-                                Atuando como <span className="italic">Bolsista - Back-end Journey (Spring Boot) - AWS Cloud Context</span>.
+                                Inserido no projeto de programa de bolsas, com a trilha de aprendizado Back-end Journey (Spring Boot) - AWS Cloud Context.
                             </p>
                         </div>
                     </div>
