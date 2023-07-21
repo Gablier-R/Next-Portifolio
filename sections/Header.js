@@ -19,6 +19,9 @@ const Header = () => {
         {label: 'Projetos', path: '/projects'},
     ]
 
+        
+
+
     
 
     const renderThemeChanger = () => {
