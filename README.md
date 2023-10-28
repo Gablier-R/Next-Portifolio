@@ -1,18 +1,18 @@
-# Meu Portfólio Pessoal 🚀
+# My Personal Portfolio 🚀
 
-Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim e os projetos em que tenho trabalhado. Sinta-se à vontade para explorar e entrar em contato.
+Welcome to my portfolio! Here you will find information about me and the projects I have been working on. Feel free to explore and get in touch.
 
-## Tecnologias Utilizadas 🛠️
+## Technologies Used 🛠️
 
 - **Next.js**
 - **React**
 - **Tailwind CSS**
-- **GitHub Actions**
 
+## How to Run Locally 🚀
 
-## Como Executar Localmente 🚀
-
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/Gablier-R/Next-Portifolio.git
+
+2. Configure the email sending method (EmailJS) or another desired one. The code entered refers to the author's email.
