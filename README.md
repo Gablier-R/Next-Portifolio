@@ -4,10 +4,10 @@ Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim e os
 
 ## Tecnologias Utilizadas 🛠️
 
-- **Next.js**: ![Next.js Icon](https://img.icons8.com/color/48/000000/next.png)
-- **React**: ![React Icon](https://img.icons8.com/color/48/000000/react.png)
-- **Tailwind CSS**: ![Tailwind CSS Icon](https://img.icons8.com/color/48/000000/tailwind-css.png)
-- **GitHub Actions**: ![GitHub Actions Icon](https://img.icons8.com/color/48/000000/github-actions.png)
+- **Next.js**
+- **React**
+- **Tailwind CSS**
+- **GitHub Actions**
 
 ## Projetos Destacados 🌟
 
