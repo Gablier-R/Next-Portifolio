@@ -7,6 +7,7 @@ Welcome to my portfolio! Here you will find information about me and the project
 - **Next.js**
 - **React**
 - **Tailwind CSS**
+- **Email JS**
 
 ## How to Run Locally 🚀
 
