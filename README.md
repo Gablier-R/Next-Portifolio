@@ -9,15 +9,6 @@ Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim e os
 - **Tailwind CSS**
 - **GitHub Actions**
 
-## Projetos Destacados 🌟
-
-1. **[Projeto 1](#)**: Descrição breve do Projeto 1.
-
-   ![Projeto 1](https://img.shields.io/badge/-Demo-blue)
-
-2. **[Projeto 2](#)**: Descrição breve do Projeto 2.
-
-   ![Projeto 2](https://img.shields.io/badge/-Demo-blue)
 
 ## Como Executar Localmente 🚀
 
