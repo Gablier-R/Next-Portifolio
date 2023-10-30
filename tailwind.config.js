@@ -18,6 +18,9 @@ module.exports = {
       margin:{
         'custom': '30rem',
       },
+      colors: {
+        custom: '#252525',
+      },
     },
   },
   plugins: [],

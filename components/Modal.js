@@ -43,9 +43,10 @@ const Modal = ({ id = 'modal', onClose = () => { } }) => {
 
     return (
 
-        <div id={id} onClick={handleOutsideClick} className="fixed inset-0 bg-purple-300 bg-opacity-10 backdrop-blur-md flex justify-center items-center">
+        <div id={id} onClick={handleOutsideClick} className=" fixed inset-0  bg-black bg-opacity-50 backdrop-blur-2xl flex justify-center items-center 
+                                                            ">
 
-            <div className=" bg-black  p-10 rounded-md w-custom space-y-10 grid-cols-3">
+            <div className="p-10 rounded-md w-custom space-y-10 grid-cols-3   ">
 
 
 
@@ -91,7 +92,7 @@ const Modal = ({ id = 'modal', onClose = () => { } }) => {
                         <label for="floating_standard" class="absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mensagem</label>
                     </div>
 
-                    <Button className="bg-purple-600  text-white w-28 px-8 flex "
+                    <Button className="bg-purple-600  text-white w-28 px-8 flex ml-auto"
                         type="submit"
                         value="Enviar">
                         Enviar

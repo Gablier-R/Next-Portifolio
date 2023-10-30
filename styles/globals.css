@@ -6,7 +6,7 @@
 
   body{
     @apply max-w-2xl mx-auto px-4;
-    @apply dark:bg-black dark:text-gray-100 bg-gray-50 text-gray-900
+    @apply dark:bg-custom dark:text-white bg-gray-50 text-gray-900
   }
 
 
