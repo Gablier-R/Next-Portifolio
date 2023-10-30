@@ -2,7 +2,6 @@ import { useState } from "react"
 import emailjs from '@emailjs/browser'
 import Button from "./Button"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Modal = ({ id = 'modal', onClose = () => { } }) => {
 
@@ -47,18 +46,19 @@ const Modal = ({ id = 'modal', onClose = () => { } }) => {
                                                             ">
 
             <div className="p-10 rounded-md w-custom space-y-10 grid-cols-3   ">
+                
 
 
 
                 <div className="space-y-0">
-                    <p class="text-white font-semibold text-lg">Envie uma proposta, ou apenas um feedback...</p>
+                    <p class="text-white font-bold text-3xl">Envie uma proposta, ou apenas um feedback...</p>
                 </div>
 
 
                 <form className=' flex flex-col space-y-8 text-white bg-transparent font-semibold' onSubmit={sendEmail}>
 
                     <div className="grid gap-6 sm:grid-cols-2">
-                        <div class="relative z-0">
+                        <div class="relative z-0 ">
                             <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
                                 type="text"
                                 placeholder=" "
