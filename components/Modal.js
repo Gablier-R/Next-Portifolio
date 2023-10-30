@@ -59,37 +59,37 @@ const Modal = ({ id = 'modal', onClose = () => { } }) => {
 
                     <div className="grid gap-6 sm:grid-cols-2">
                         <div class="relative z-0 ">
-                            <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
+                            <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600  focus:outline-none focus:ring-0  peer"
                                 type="text"
                                 placeholder=" "
                                 onChange={(e) => setName(e.target.value)}
                                 value={name}
                                 required="required"
                             />
-                            <label for="floating_standard" class="absolute text-sm  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nome</label>
+                            <label for="floating_standard" class="absolute text-sm  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Seu nome</label>
                         </div>
 
                         <div class="relative z-0">
-                            <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
+                            <input id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600  focus:outline-none focus:ring-0  peer"
                                 type="email"
                                 placeholder=" "
                                 onChange={(e) => setEmail(e.target.value)}
                                 value={email}
                                 required="required"
                             />
-                            <label for="floating_standard" class="absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+                            <label for="floating_standard" class="absolute text-sm  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Seu email</label>
                         </div>
                     </div>
 
                     <div class="relative z-0">
-                        <textarea id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600 dark:focus:border-purple-600 focus:outline-none focus:ring-0 focus:border-purple-600 peer"
+                        <textarea id="floating_standard" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-400 appearance-none dark:border-gray-600  focus:outline-none focus:ring-0  peer"
                             type="text"
                             placeholder=" "
                             onChange={(e) => setMessage(e.target.value)}
                             value={message}
                             required="required"
                         />
-                        <label for="floating_standard" class="absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-purple-600 peer-focus:dark:text-purple-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mensagem</label>
+                        <label for="floating_standard" class="absolute text-sm  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Sua mensagem</label>
                     </div>
 
                     <Button className="bg-purple-600  text-white w-28 px-8 flex ml-auto"
