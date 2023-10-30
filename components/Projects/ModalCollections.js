@@ -10,6 +10,7 @@ export default function ModalCollections({ closeModal, project }) {
 
   return (
     <>
+    <section className="mt-16">
       {showModal && (
         <section className="fixed inset-0 overflow-y-auto flex items-center justify-center z-50">
           <div className="absolute inset-0 bg-gray-500 opacity-75" onClick={handleCloseModal}></div>
@@ -29,6 +30,7 @@ export default function ModalCollections({ closeModal, project }) {
           </div>
         </section>
       )}
+      </section>
     </>
   );
 }
