@@ -45,7 +45,7 @@ function ProjectCard({ project, openModal }) {
   const { title } = project;
 
   return (
-    <div className="bg-gray-50 dark:bg-custom p-6 rounded-md shadow-xl cursor-pointer hover:border-gray-500 hover:border-2 transition-colors duration-300 dark:hover:border-white" onClick={() => openModal(project)}>
+    <div className="bg-gray-300 dark:bg-black/40 p-6 rounded-md shadow-xl cursor-pointer hover:border-gray-500 hover:border-2 transition-colors duration-300 dark:hover:border-white" onClick={() => openModal(project)}>
       <div>
         <h2 className="text-xl font-semibold mb-4 text-black dark:text-white">{title}</h2>
       </div>
