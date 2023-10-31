@@ -2,11 +2,11 @@ import React from "react";
 
 function Social() {
     return (
-        <div class="flex justify-center space-x-10 mb-3" >
+        <div class="flex justify-center space-x-10 mb-3 " >
             <a href="https://www.linkedin.com/in/gablier-rodrigues/" target="_blank" rel="noreferrer">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-3.5"
+                    class="h-4 "
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
@@ -17,7 +17,7 @@ function Social() {
             <a href="https://github.com/Gablier-R" target="_blank" rel="noreferrer">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-3.5"
+                    class="h-4"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
@@ -28,7 +28,7 @@ function Social() {
             <a href="https://www.instagram.com/gablier_r/" target="_blank" rel="noreferrer">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-3.5"
+                    class="h-4"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
