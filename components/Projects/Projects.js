@@ -24,8 +24,7 @@ function CardProjects() {
   return (
     <section className="mt-16">
       <h1 className="text-custom text-xl font-semibold flex items-center justify-center dark:text-gray-100">
-        Projetos de um mano:  
-        <span className="dark:text-purple-500 text-purple-600  block "> Backend</span> 
+        Projetos de um mano Backend
       </h1>
 
       <div className="mt-20">
