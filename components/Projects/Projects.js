@@ -48,7 +48,49 @@ function CardProjects() {
     {
       id: 3,
       title: "Portifolio",
-      description: "...: ",
+      description: (
+        <div>
+          <p className="font-bold">
+            Sim exatamente, esse site é exatamente oque voce esta vendo.
+          </p>
+          <br />
+          <p>O projeto utiliza tecnologias como:</p>
+          <ul className="list-disc ml-6">
+            <li>
+              {" "}
+              <span className="font-bold"> Next.js</span> para a construção da
+              interface e interação das screens
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> Tailwindcss</span> para a estilização
+              dos elementos
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> JavaScript</span> é usado para
+              adicionar interatividade ao site
+            </li>
+          </ul>
+          <br />
+          <p>
+            Além disso, todo o portifolio esta sempre em desenvolvimento, eu não
+            sou muito bom em criar elementos. Então quando eu tenho um faniquito
+            de criatividade vai tudo mudar. Você querendo ou não...
+          </p>
+          <br />
+          <p>
+            Modéstia parte existe algumas coisas bem legais aqui. Como o jeito
+            de definir o tipo <span className="font-bold"> Theme</span>. O envio
+            de email com o <span className="font-bold"> EmailJS</span> (não
+            parece grande coisa mas quando eu fiz eu fiquei bem feliz). E mais
+            recentemente esse elemento que voce esta vendo, se quiser ver mais
+            acessa la, e olhe em{" "}
+            <span className="font-bold"> components/projects</span>
+          </p>
+          <br />
+        </div>
+      ),
       repoLink: "https://github.com/Gablier-R/Next-Portifolio",
       imageLink:
         "https://braziljournal.com/wp-content/uploads/2023/08/2023-Brazil-Journal_Capa.png",
@@ -76,8 +118,8 @@ function CardProjects() {
       </div>
 
       <h1 className="text-custom text-xl font-semibold flex items-center justify-center dark:text-gray-100 mt-16">
-        <span className="text-purple-500">Frontends</span>&nbsp; que por acaso
-        podem ser meus
+        <span className="text-purple-500">Frontends</span>&nbsp; que podem ser
+        meus
       </h1>
 
       <div className="mt-20">
