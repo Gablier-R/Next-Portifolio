@@ -19,7 +19,7 @@ module.exports = {
         'custom': '30rem',
       },
       colors: {
-        custom: '#252525',
+        custom: '#1e1f20',
       },
     },
   },
