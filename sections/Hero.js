@@ -12,8 +12,8 @@ const Hero = () => {
         <span className="dark:text-purple-600"> Gabriel </span>
         aqui 👋
       </h1>
-      <h3 className="text-4xl my-3"> desenvolvedor web</h3>
-      <p className="text-gray-500 dark:text-gray-400  mb-8">
+      <h3 className="text-4xl my-3 "> desenvolvedor web... <span className="text-purple-600 text-3xl italic">backend</span> </h3>
+      <p className="text-lg text-gray-500 dark:text-gray-400  mb-12">
         {" "}
         "Iae tudo, eu sei eu sei. Parece um pouco simples, mas bro eu to
         trabalhando com java. Sem sanidade."

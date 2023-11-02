@@ -101,7 +101,7 @@ function CardProjects() {
     <div className="mt-16">
       <h1 className="text-custom text-xl font-semibold flex items-center justify-center dark:text-gray-100 mt-16">
         Projetos&nbsp;
-        <span className="text-purple-500">Backend</span>
+        <span className="text-purple-600 dark:text-purple-500">Backend</span>
         &nbsp;do parceiro aqui
       </h1>
 
