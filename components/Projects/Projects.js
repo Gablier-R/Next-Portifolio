@@ -147,11 +147,9 @@ function CardProjects() {
           <br />
           <p>
             Consiste no consumo de uma api externa{" "}
-            <a href="https://jsonplaceholder.typicode.com/" target="_blank">
               <span className="font-bold text-custom dark:text-gray-50 hover:text-purple-500 dark:hover:text-purple-500">
                 jsonplaceholder
               </span>{" "}
-            </a>{" "}
             e inserir todos os dados em uma base de dados local, que são post e
             comentarios é realizar um fluxo de dados muito especifico. Para ver
             mais acesse o repositorio la existe uma descrição mais detalhada:
