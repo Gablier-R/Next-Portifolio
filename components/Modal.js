@@ -61,12 +61,8 @@ const Modal = ({ id = "modal", onClose = () => {}, showCloseButton }) => {
     >
       <div className=" p-10 space-y-10 grid-cols-3   ">
         <div className="flex items-center justify-end">
-          <button
-            onClick={handleCloseButtonClick}
-            className="absolute top-4 right-4 dark:text-gray-500 text-gray-900  hover:text-purple-500 focus:outline-none"
-          >
-            <span className="text-3xl">&times;</span>
-          </button>
+          
+          
 
           <div className="space-y-0">
             <p className="text-white font-bold text-3xl">
