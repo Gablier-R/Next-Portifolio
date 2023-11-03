@@ -19,7 +19,7 @@ function LineStudy() {
                                 <time class="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-400">Agosto 2017 - Abril 2019</time>
                                 <h3 class="text-lg font-bold text-gray-900 dark:text-gray-200 ">Instituto Federal Goiano - Campus Posse</h3>
                                 <p class="text-base font-normal text-gray-600 dark:text-gray-400">
-                                    <span className="italic">Estudande</span> do curso de Tecnico em Informatica, focado totalemente no mercado de trabalho, os estudos são aplicados essencialmente a programação e manutenção de maquinas.
+                                    <span className="italic">Estudande</span> do curso de Tecnico em Informatica, focado totalmente no mercado de trabalho, os estudos são aplicados essencialmente a programação e manutenção de maquinas.
                                 </p>
                             </div>
                             <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-violet-600">
