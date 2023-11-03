@@ -3,14 +3,11 @@ import emailjs from "@emailjs/browser";
 import Button from "./Button";
 import Social from "./Social";
 
-const Modal = ({ id = "modal", onClose = () => {}, showCloseButton }) => {
+const Modal = ({ id = "modal", onClose = () => {} }) => {
   const handleOutsideClick = (e) => {
     if (e.target.id === id) onClose();
   };
 
-  const handleCloseButtonClick = () => {
-    onClose();
-  };
 
   /* Send Email */
   const [name, setName] = useState("");
