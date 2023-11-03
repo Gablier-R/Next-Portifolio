@@ -19,14 +19,14 @@ function LineWork() {
                             <time class="mb-1 text-sm font-normal leading-none text-white"> <span class="bg-purple-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-purple-600  ml-3">Now</span></time>
                             <h3 class="text-lg font-bold text-gray-900 dark:text-gray-200">Freelancer</h3>
                             <p class="text-base font-normal text-gray-600 dark:text-gray-400">
-                                <span className="italic">Freelancer</span> na contrução de aplicações com <span className="italic">JavaScript(React, NextJs)</span>, <span className="italic">PHP</span> e <span className="italic">Java (Servlet, JSP)</span> entre outras
+                                <span className="font-bold">Freelancer</span> na contrução de aplicações com <span className="font-bold">JavaScript(React, NextJs)</span>, <span className="font-bold">PHP</span> e <span className="font-bold">Java (Servlet, JSP)</span> entre outras
                             </p>
                         </div>
                         <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-violet-600">
                             <time class="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-gray-400">Junho 2022 - Março 2023 </time>
                             <h3 class="text-lg font-bold text-gray-900 dark:text-gray-200">Wom System</h3>
                             <p class="text-base font-normal text-gray-600 dark:text-gray-400">
-                                Atuando como <span className="italic">Programador junior</span>, tendo atividades como desenvolvimento, refatoração de codigos e documentações nos devidos padrões.
+                                Atuando como <span className="font-bold">Programador junior</span>, tendo atividades como desenvolvimento, refatoração de codigos e documentações nos devidos padrões.
                             </p>
                         </div>
                         <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-violet-600">
