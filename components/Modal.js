@@ -1,10 +1,15 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "./Button";
+import Social from "./Social";
 
-const Modal = ({ id = "modal", onClose = () => {} }) => {
+const Modal = ({ id = "modal", onClose = () => {}, showCloseButton }) => {
   const handleOutsideClick = (e) => {
     if (e.target.id === id) onClose();
+  };
+
+  const handleCloseButtonClick = () => {
+    onClose();
   };
 
   /* Send Email */
@@ -54,11 +59,20 @@ const Modal = ({ id = "modal", onClose = () => {} }) => {
       className=" fixed inset-0  bg-black bg-opacity-50 backdrop-blur-2xl flex justify-center items-center 
                                                             "
     >
-      <div className="p-10 rounded-md w-custom space-y-10 grid-cols-3   ">
-        <div className="space-y-0">
-          <p class="text-white font-bold text-3xl">
-            Envie uma proposta, ou apenas um feedback...
-          </p>
+      <div className=" p-10 space-y-10 grid-cols-3   ">
+        <div className="flex items-center justify-end">
+          <button
+            onClick={handleCloseButtonClick}
+            className="absolute top-4 right-4 dark:text-gray-500 text-gray-900  hover:text-purple-500 focus:outline-none"
+          >
+            <span className="text-3xl">&times;</span>
+          </button>
+
+          <div className="space-y-0">
+            <p className="text-white font-bold text-3xl">
+              Envie uma proposta, ou apenas um feedback...
+            </p>
+          </div>
         </div>
 
         <form
@@ -120,6 +134,8 @@ const Modal = ({ id = "modal", onClose = () => {} }) => {
               Sua mensagem
             </label>
           </div>
+
+          <Social />
 
           <Button
             className="bg-purple-600  text-white w-28 px-8 flex ml-auto"

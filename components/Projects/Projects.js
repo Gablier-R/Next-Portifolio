@@ -19,8 +19,51 @@ function CardProjects() {
     {
       id: 1,
       title: "Api collections movies",
-      description:
-        "Eu passei um tempo pra bolar como eu iria criar esses elementos(card e modal). Então não criei uma descrição ainda. Mas acessa la:",
+      description: (
+        <div>
+          <p className="font-bold">
+            Bem-vindo ao repositório API Collections Movies!
+          </p>
+          <br />
+          <p>O projeto utiliza tecnologias como:</p>
+          <ul className="list-disc ml-6">
+            <li>
+              {" "}
+              <span className="font-bold"> Java </span> linguagem do projeto
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> Spring boot</span> framework para
+              otimizar o desenvolvimento
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> MongoDB</span> banco de dados noSQL,
+              para o registros de todos os dados
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> Spring security</span> para
+              acrescentar uma camada a mais de segurança a aplicação
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> Emai microservice</span> foi
+              integrado ao sistema para enviar notificações a usuarios
+              cadastrados
+            </li>
+          </ul>
+          <br />
+          <p>
+            Bem eu precisava de um app que fizesse o controle de usuarios e de
+            certos recursoso para a faculdade. Então queria algo
+            basico como consumir a API de filmes. Mas o controle de usuarios dela, 
+            era uma pouco dificil, então fiz o meu. Acessa la
+
+          </p>
+          <br />
+        </div>
+      ),
       repoLink: "https://github.com/Gablier-R/api-collections-movies",
       imageLink:
         "https://png.pngtree.com/thumb_back/fw800/background/20231004/pngtree-youthful-pals-enjoying-a-movie-night-in-3d-glasses-at-home-image_13589294.png",
@@ -28,7 +71,44 @@ function CardProjects() {
     {
       id: 2,
       title: "Email microservice",
-      description: "É poise, ainda não, so clica ai: ",
+      description: (
+        <div>
+          <p className="font-bold">Bem-vindo ao Microservice email</p>
+          <br />
+          <p>O projeto utiliza tecnologias como:</p>
+          <ul className="list-disc ml-6">
+            <li>
+              {" "}
+              <span className="font-bold"> Java </span> linguagem do projeto
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> Spring boot</span> framework para
+              otimizar o desenvolvimento
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> RabbitMQ</span> para ter acessos a
+              menssageria e tambem as configurações do broker
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> PostgreSQL</span> para salvar dados
+              semelhantes a logs. Usuarios e emails que as mensagens são
+              enviadas
+            </li>
+          </ul>
+          <br />
+          <p>
+             Com o
+            intutito de cuspir mensagens para os clientes da plataforma. No
+            momemto ele so informa a mensagem de cadastro do cliente. Mas ja
+            esta em desenvolvimento uma forma de generalização, para ser integrado a qualquer sistema.
+          </p>
+          <br />
+          <br />
+        </div>
+      ),
       repoLink: "https://github.com/Gablier-R/email-microservice",
       imageLink:
         "https://files.tecnoblog.net/wp-content/uploads/2021/01/como-enviar-mensagem-telegram1.jpg",
@@ -36,7 +116,48 @@ function CardProjects() {
     {
       id: 3,
       title: "Compass.UOL Challenger",
-      description: "...: ",
+      description: (
+        <div>
+          <p className="font-bold">Bem-vindo ao Teste de sanidade</p>
+          <br />
+          <p>O projeto utiliza tecnologias como:</p>
+          <ul className="list-disc ml-6">
+            <li>
+              {" "}
+              <span className="font-bold"> Java </span> linguagem do projeto
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> Spring boot</span> framework para
+              otimizar o desenvolvimento
+            </li>
+            <li>
+              {" "}
+              <span className="font-bold"> H2 database</span> para simular uma
+              banco relacional, mas de forma simploria
+            </li>
+          </ul>
+          <br />
+          <p>
+            Foi desenvolvido enquanto eu fazia parte do programa de bolsas da{" "}
+            <span className="font-bold">Compass.UOL</span>. E existiam alguns
+            desafio a serem realizados esse foi um deles:
+          </p>
+          <br />
+          <p>
+            Consiste no consumo de uma api externa{" "}
+            <a href="https://jsonplaceholder.typicode.com/" target="_blank">
+              <span className="font-bold text-custom dark:text-gray-50 hover:text-purple-500 dark:hover:text-purple-500">
+                jsonplaceholder
+              </span>{" "}
+            </a>{" "}
+            e inserir todos os dados em uma base de dados local, que são post e
+            comentarios é realizar um fluxo de dados muito especifico. Para ver
+            mais acesse o repositorio la existe uma descrição mais detalhada:
+          </p>
+          <br />
+        </div>
+      ),
       repoLink: "https://github.com/Gablier-R/consumer-api-challenge",
       imageLink:
         "https://www.unijui.edu.br/arquivos/tinyMCE4/comunica1/WhatsApp%20Image%202022-08-10%20at%2016.11.56.jpeg",
@@ -46,7 +167,7 @@ function CardProjects() {
 
   const frontendProjects = [
     {
-      id: 3,
+      id: 4,
       title: "Portifolio",
       description: (
         <div>

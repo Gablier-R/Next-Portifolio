@@ -22,7 +22,7 @@ export default function ModalCollections({ closeModal, project }) {
                 <button
                   type="button"
                   onClick={handleCloseModal}
-                  className="text-gray-500 hover:text-gray-700 focus:outline-none mt-[-10px]"
+                  className="text-gray-500 hover:text-purple-500 focus:outline-none mt-[-10px]"
                 >
                   <span className="text-3xl">&times;</span>
                 </button>
@@ -35,7 +35,7 @@ export default function ModalCollections({ closeModal, project }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="font-semibold text-custom dark:text-gray-50 hover:text-purple-500 dark:hover:text-purple-500">
+                  <span className="font-bold text-custom dark:text-gray-50 hover:text-purple-500 dark:hover:text-purple-500">
                     {" "}
                     👉 repo Github{" "}
                   </span>
